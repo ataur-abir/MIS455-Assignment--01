@@ -29,3 +29,24 @@ h5, h3 {
     font-weight: 400;
     font-style: normal;
 }
+ /* center horizontally */
+.para-flex {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    padding: 20px;
+}
+
+/* this one for container */
+.para-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+
+    border: 2px solid #333;
+    border-radius: 10px;
+}
